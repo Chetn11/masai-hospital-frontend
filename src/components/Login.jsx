@@ -19,14 +19,14 @@ const Login = () => {
         try {
             let response;
             if (action === 'signup') {
-                response = await axios.post('https://masai-hospital-ids8.onrender.com/signup', {
+                response = await axios.post('https://mock-backend-masaihospital.onrender.com/user/signup', {
                     name,
                     email,
                     password
                     
                 });
             } else {
-                response = await axios.post('https://masai-hospital-ids8.onrender.com/login', {
+                response = await axios.post('https://mock-backend-masaihospital.onrender.com/user/login', {
                     email,
                     password
                 });
