@@ -1,0 +1,19 @@
+#appointment{
+    width: 30%;
+    margin:auto;
+    padding: 50px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h1{
+    text-align: center;
+}
+.btn{
+    background-color:#407bac;
+    color: white;
+}
+.btn:hover{
+    margin-top: 15px;
+    background-color: #606661;
+   
+}
